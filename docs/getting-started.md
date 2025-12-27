@@ -73,6 +73,6 @@ $phone->isTollFree(); // false
 
 ## Next Steps
 
-- [Basic Usage](/phone-number/basic-usage/) - Detailed parsing and formatting
-- [Exception Handling](/phone-number/exception-handling/) - Handle parsing errors
-- [Metadata](/phone-number/metadata/) - Access phone number metadata
+- [Basic Usage](./basic-usage.md) - Detailed parsing and formatting
+- [Exception Handling](./exception-handling.md) - Handle parsing errors
+- [Metadata](./metadata.md) - Access phone number metadata
