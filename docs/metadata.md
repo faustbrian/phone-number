@@ -1,8 +1,3 @@
----
-title: Metadata
-description: Access phone number metadata and carrier information.
----
-
 Access phone number metadata and carrier information.
 
 ## Region Information

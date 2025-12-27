@@ -1,8 +1,3 @@
----
-title: Getting Started
-description: Install and start using Phone Number for parsing and validating phone numbers in PHP.
----
-
 Phone Number is a PHP library for parsing, validating, and formatting phone numbers using libphonenumber.
 
 ## Installation

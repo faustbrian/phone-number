@@ -1,8 +1,3 @@
----
-title: Exception Handling
-description: Handling phone number parsing and validation errors.
----
-
 Handling phone number parsing and validation errors.
 
 ## Parse Exceptions

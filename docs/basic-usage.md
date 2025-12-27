@@ -1,8 +1,3 @@
----
-title: Basic Usage
-description: Parsing, formatting, and validating phone numbers.
----
-
 Parsing, formatting, and validating phone numbers.
 
 ## Parsing Phone Numbers
