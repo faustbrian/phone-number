@@ -1,12 +1,12 @@
 ## Table of Contents
 
-1. [Basic Usage](#doc-cookbooks-basic-usage) (`cookbooks/basic-usage.md`)
-2. [Metadata](#doc-cookbooks-metadata) (`cookbooks/metadata.md`)
-3. [Exception Handling](#doc-cookbooks-exception-handling) (`cookbooks/exception-handling.md`)
-4. [Overview](#doc-docs-readme) (`docs/README.md`)
-5. [Basic Usage](#doc-docs-basic-usage) (`docs/basic-usage.md`)
-6. [Exception Handling](#doc-docs-exception-handling) (`docs/exception-handling.md`)
-7. [Metadata](#doc-docs-metadata) (`docs/metadata.md`)
+1. [Basic Usage](#doc-cookbooks-basic-usage)
+2. [Metadata](#doc-cookbooks-metadata)
+3. [Exception Handling](#doc-cookbooks-exception-handling)
+4. [Overview](#doc-docs-readme)
+5. [Basic Usage](#doc-docs-basic-usage)
+6. [Exception Handling](#doc-docs-exception-handling)
+7. [Metadata](#doc-docs-metadata)
 <a id="doc-cookbooks-basic-usage"></a>
 
 # Basic Usage Cookbook
