@@ -1,12 +1,14 @@
 ## Table of Contents
 
-1. Basic Usage (`cookbooks/basic-usage.md`)
-2. Metadata (`cookbooks/metadata.md`)
-3. Exception Handling (`cookbooks/exception-handling.md`)
-4. Overview (`docs/README.md`)
-5. Basic Usage (`docs/basic-usage.md`)
-6. Exception Handling (`docs/exception-handling.md`)
-7. Metadata (`docs/metadata.md`)
+1. [Basic Usage](#doc-cookbooks-basic-usage) (`cookbooks/basic-usage.md`)
+2. [Metadata](#doc-cookbooks-metadata) (`cookbooks/metadata.md`)
+3. [Exception Handling](#doc-cookbooks-exception-handling) (`cookbooks/exception-handling.md`)
+4. [Overview](#doc-docs-readme) (`docs/README.md`)
+5. [Basic Usage](#doc-docs-basic-usage) (`docs/basic-usage.md`)
+6. [Exception Handling](#doc-docs-exception-handling) (`docs/exception-handling.md`)
+7. [Metadata](#doc-docs-metadata) (`docs/metadata.md`)
+<a id="doc-cookbooks-basic-usage"></a>
+
 # Basic Usage Cookbook
 
 This cookbook covers the essential operations for parsing, validating, and formatting phone numbers.
@@ -287,6 +289,8 @@ json_encode($phone); // '"+16502530000"'
 json_encode(['phone' => $phone]); // '{"phone":"+16502530000"}'
 ```
 
+<a id="doc-cookbooks-metadata"></a>
+
 # Metadata Cookbook
 
 This cookbook covers extracting metadata from phone numbers including geographic descriptions, carrier information, and time zones.
@@ -490,6 +494,8 @@ $profile = getPhoneProfile($phone);
 //     'valid' => true,
 // ]
 ```
+
+<a id="doc-cookbooks-exception-handling"></a>
 
 # Exception Handling Cookbook
 
@@ -721,6 +727,8 @@ if ($phone !== null && $phone->isValidNumber()) {
 }
 ```
 
+<a id="doc-docs-readme"></a>
+
 Phone Number is a PHP library for parsing, validating, and formatting phone numbers using libphonenumber.
 
 ## Installation
@@ -791,9 +799,11 @@ $phone->isTollFree(); // false
 
 ## Next Steps
 
-- [Basic Usage](./basic-usage.md) - Detailed parsing and formatting
-- [Exception Handling](./exception-handling.md) - Handle parsing errors
-- [Metadata](./metadata.md) - Access phone number metadata
+- [Basic Usage](#doc-docs-basic-usage) - Detailed parsing and formatting
+- [Exception Handling](#doc-docs-exception-handling) - Handle parsing errors
+- [Metadata](#doc-docs-metadata) - Access phone number metadata
+
+<a id="doc-docs-basic-usage"></a>
 
 Parsing, formatting, and validating phone numbers.
 
@@ -937,6 +947,8 @@ PhoneNumber::isValid('invalid'); // false
 // Quick formatting
 PhoneNumber::formatE164('+1 (555) 123-4567'); // "+15551234567"
 ```
+
+<a id="doc-docs-exception-handling"></a>
 
 Handling phone number parsing and validation errors.
 
@@ -1103,6 +1115,8 @@ foreach ($inputs as $input) {
     ];
 }
 ```
+
+<a id="doc-docs-metadata"></a>
 
 Access phone number metadata and carrier information.
 

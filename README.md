@@ -21,9 +21,9 @@ composer require cline/phone-number
 
 ## Documentation
 
-- **[Basic Usage](cookbooks/basic-usage.md)** - Parsing, validation, formatting, and number components
-- **[Metadata](cookbooks/metadata.md)** - Geographic descriptions, carrier info, and time zones
-- **[Exception Handling](cookbooks/exception-handling.md)** - Handling parse errors gracefully
+- **[Basic Usage](DOCS.md#doc-cookbooks-basic-usage)** - Parsing, validation, formatting, and number components
+- **[Metadata](DOCS.md#doc-cookbooks-metadata)** - Geographic descriptions, carrier info, and time zones
+- **[Exception Handling](DOCS.md#doc-cookbooks-exception-handling)** - Handling parse errors gracefully
 
 ## Change log
 
